@@ -2,6 +2,9 @@ class OperacoesBasicas:
     def adicao(self, valor1, valor2):
         return valor1 + valor2
 
+    def multiplicacao(self, valor1, valor2):
+        return valor1*valor2
+
     def ler_valores(self):
         print("Operações Básicas:")
         valor1 = float(input("Digite o primeiro número: "))
@@ -22,7 +25,7 @@ class OperacoesBasicas:
         if escolha == '1':
             resultado = self.adicao(valor1, valor2)
         elif escolha == '2':
-            print('Não implementado...')
+            resultado = self.multiplicacao(valor1, valor2)
             resultado = 0
         elif escolha == '3':
             print('Não implementado...')
