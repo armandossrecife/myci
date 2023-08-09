@@ -1,6 +1,6 @@
-import aritmetica
-import trigonometria
-import logaritmo
+import operacoes.aritmetica as aritmetica
+import operacoes.trigonometria as trigonometria
+import operacoes.logaritmo as logaritmo
 
 class CalculadoraCientifica:
     opcao = 0
