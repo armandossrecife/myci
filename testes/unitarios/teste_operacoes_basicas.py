@@ -1,5 +1,4 @@
 import unittest
-#from aritmetica import OperacoesBasicas
 import operacoes.aritmetica as aritmetica
 
 class TestOperacoesBasicas(unittest.TestCase):
