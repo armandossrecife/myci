@@ -5,6 +5,9 @@ class OperacoesBasicas:
     def multiplicacao(self, valor1, valor2):
         return valor1*valor2
 
+    def subtracao(self, valor1, valor2):
+        return valor1-valor2
+
     def ler_valores(self):
         print("Operações Básicas:")
         valor1 = float(input("Digite o primeiro número: "))
@@ -25,11 +28,9 @@ class OperacoesBasicas:
         if escolha == '1':
             resultado = self.adicao(valor1, valor2)
         elif escolha == '2':
-            resultado = self.multiplicacao(valor1, valor2)
-            resultado = 0
+            resultado = self.subtracao(valor1, valor2)
         elif escolha == '3':
-            print('Não implementado...')
-            resultado = 0
+            resultado = self.multiplicacao(valor1, valor2)
         elif escolha == '4':
             print('Não implementado...')
             resultado = 0
